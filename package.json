@@ -13,6 +13,7 @@
     "@heroicons/react": "^2.2.0",
     "@iconify/react": "^5.2.1",
     "@tailwindcss/typography": "^0.5.16",
+    "@vercel/speed-insights": "^1.2.0",
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.488.0",
     "mongoose": "^8.13.1",

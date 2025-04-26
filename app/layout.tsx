@@ -5,6 +5,7 @@ import { generateMainMetadata } from './metadata';
 import Header from '@/components/Header';
 import TopBanner from '@/components/TopBanner';
 import PromoPopup from '@/components/PromoPopup';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -61,6 +62,7 @@ export default function RootLayout({
         <TopBanner />
         <Header />
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
